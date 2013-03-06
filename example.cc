@@ -1,8 +1,4 @@
-#!/bin/sh
-# sabalaba's TopCoder C++ Boilerplate
-# vim usage: :r! tcbp
-#
-echo '#include <algorithm>
+#include <algorithm>
 #include <bitset>
 #include <cmath>
 #include <cstdio>
@@ -42,4 +38,10 @@ typedef vector<int> VI;
 typedef vector<string> VS;
 
 // end boilerplate
-// hack hard, hack strong'
+// hack hard, hack strong
+int main(int argc, char* argv[]) {
+	VI v;
+	int n[12] = {0, 3, 9, 1, 3, 4, 10, 312, 1, 203, 30, 3};
+	v.assign(n, n+12);
+	printf("Max value in vector: %d\n", MAX(v));
+}
