@@ -31,6 +31,7 @@ echo '#include <algorithm>
 #define X 		first
 #define Y 		second
 #define all(s)		(s).begin(), (s).end()
+#define ITER(c, it)	for(typeof((c).begin()) it = (c).begin(); it != (c).end(); it++)
 #define SORT(s)		sort(all(s))
 #define MAX(s)		*max_element(all(s))
 
